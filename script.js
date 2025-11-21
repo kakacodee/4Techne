@@ -1,4 +1,3 @@
-let imagens = ['img/trabimg1.png', 'img/trabimg1.png', 'img/trabimg1.png'];
 
 let Index = 0;
 
@@ -15,3 +14,4 @@ function mudarImagem(direction) {
     }
     slides.style.transform = `translateX(${-Index * 100}%)`;
 }
+

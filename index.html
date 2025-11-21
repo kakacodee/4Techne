@@ -5,52 +5,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="img/iconof.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <script src="script.js" defer></script>
     <title>4Techne</title>
 </head>
 <body>
-    <div class="topo">
+    <div id="topo">
         
-        <div class="logo">
-            <img href=".topo" class="imglogo" src="img/logoof.png" alt="">
-        </div>
-        <section class="menu">
-            <ul>
-                <li><a  class="It" href="#plan">Planos</a></li>
-                <li><a class="It" href="#sobre">Sobre nós</a></li>
-                <li><a class="It" href="#footer">Contatos</a></li>
-            </ul>
-        </section>
+   
+            <a href="#topo"><img class="imglogo" src="img/logo_techne.png"></a>
+  
+        <nav class="menu">
+            <a href="#sobres">Sobre nós</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#trabreal">Trabalhos</a>
+                <a href="#contatos">Contatos</a>
+                <img src="img/add-user.png">
+           
+        </nav>
     </div>
-    <div class="ImgApres">
+  <div class="bannerContainer">
         <img class="banner" src="img/banner.png" alt="">
+</div>
+
+    <div>
+    <hr>
     </div>
     <section class="conteudo">
-        <div class="titulo">
-            <h1 id="sobre">Sobre nós</h1>
+    <div id="sobres"></div>
+            <h1 class="plan">Sobre nós</h1>
            <h3 class="subplan">Conheça nossa empresa</h3>
-        </div>
-        <div class="desc">
-            <img class="sobreimg" src="img/sobreimg.png" alt="">
-            <p class="sobretxt">Somos uma empresa de 
+
+        <div class="desc">   
+           
+         
+             <p class="sobretxt">Somos uma empresa de 
                 tecnologia dedicada à criação de soluções 
                 inovadoras que impulsionam a transformação 
                 digital de nossos clientes. Nosso compromisso
                 é entregar excelência em cada projeto, 
                 aliando criatividade, conhecimento técnico e
-                foco nos resultados. Contamos com uma equipe multidisciplinar formada por profissionais altamente qualificados, com ampla experiência no setor e uma paixão genuína por tecnologia. Nossa cultura é pautada na inovação constante, na colaboração e na busca contínua por melhorias que agreguem valor real aos negócios que atendemos. </p>
-            
+                foco nos resultados. Contamos com uma equipe multidisciplinar formada por profissionais altamente qualificados, com ampla experiência no setor e uma paixão genuína por tecnologia. Nossa cultura é pautada na inovação constante, na colaboração e na busca contínua por melhorias que agreguem valor real aos negócios que atendemos. </p> 
+            <img class="sobreimg" src="img/sobreimg.png" alt="">
+          
         </div>
-        <div class="servicos">
-        <div class="titulo">
-           <h1 id="plan" class="plan">Serviços</h1>
+        <hr>
+        <div id="servicos">
+    
+           <h1 class="plan">Serviços</h1>
            <h3 class="subplan">Nossos principais serviços</h3>
-        </div>
+ 
         <div class="cards">
             <div class="card">
                 <div class="card-top">
-                    <!--<img class="web" src="img/web.png" alt="" title="Sistemas Web">-->
+                   <img class="IconWeb" src="img/web.png" alt="" title="Sistemas Web">
                     <h2 class="textW">Web</h2>
                 </div>
                 <div class="card-text">
@@ -59,7 +69,7 @@
             </div>
             <div class="card">
                 <div class="card-top">
-                    <!--<img class="web" src="img/android.png" alt="mobile">-->
+                    <img class="iconAndroid" src="img/android.png" alt="mobile">
                     <h2 class="text1">Mobile</h2>
                 </div>
                 <div class="card-text">
@@ -68,7 +78,7 @@
             </div>
             <div class="card">
                 <div class="card-top">
-                    <!--<img class="web" src="img/banco.png" alt="banco">-->
+                    <img class="IconBanco" src="img/banco.png" alt="banco">
                     <h2 class="text1">Banco</h2>
                 </div>
                 <div class="card-text">
@@ -77,7 +87,7 @@
             </div>
             <div class="card">
                 <div class="card-top">
-                    <!--<img class="web" src="img/auto.png" alt="automacao">-->
+                  <img class="IconAutomacao" src="img/auto.png" alt="automacao">
                     <h2 class="text2">Automação</h2>
                 </div>
                 <div class="card-text">
@@ -86,31 +96,59 @@
             </div>
         </div>
         </div>
-        <div class="trabreal">
-            <h1 class="Trab">Trabalhos realizados</h1> <br>
-            <h2 class="projetos">Conheça nossos principais projetos</h2>
+        <hr>
+        <div id="trabreal">
+            
+            <h1 class="plan">Trabalhos realizados</h1> <br>
+            <h3 class="subplan">Conheça nossos principais projetos</h3>
         </div>
         <section class="trabalho-slide">
             <img src = "img/setaesquerda.png" class="prev" onclick="mudarImagem(-1)"&#10094;>
-            <p class="txtSlide">Aqui estão projetos desenvolvidos por nossa empresa para diversos clientes diferentes, incluindo mas não limitados a: serviços de streaming, lojas virtuais, aplicativos mobile, entre outros.</p>
+            <p class="txtSlide">Aqui estão projetos desenvolvidos por nossa empresa para diversos clientes diferentes, incluindo mas não limitados a: serviços de streaming, lojas virtuais, aplicativos mobile, entre outros.
+
+            </p>
+          
+         
+          
             <div class="trabalhos">
                 <div class = "trabalhos-slide">
                     <img class="trabimg" src="img/imgprojeto1.jpeg" alt="Imagem 1">
                     <img class="trabimg" src="img/imgprojeto2.jpeg" alt="Imagem 2">
                     <img class="trabimg" src="img/imgprojeto3.png" alt="Imagem 3">
+                    <img class="trabimg" src="img/thorverse.png" alt="Imagem4">
+                    <img class="trabimg" src="img/popeflix.png" alt="Imagem5">
                 </div>
             </div>
             <img src = "img/setadireita.png" class="next" onclick="mudarImagem(1)"&#10095;>
         </section>   
+        <hr>
+    </section>
+
+    <section id="contatos">
+        
+           <h1 class="plan">Contatos</h1>
+           <h3 class="subplan">Veja onde nos localizar e contatar</h3>
+           <div class="contatos">
+            <iframe class= "mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.8555971967503!2d-46.6827593!3d-23.5376956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce57ef0c4f7d9b%3A0xac3b8467c0efa306!2sEdif%C3%ADcio%20Adesso%20Office%20Perdizes!5e0!3m2!1spt-BR!2sbr!4v1763736742259!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="meiosContato">
+               <div class="loc" ><img src="img/location.png"> <p>Rua Cayowaá, 1055 - Perdizes, São Paulo - SP, 05018-001</p></div>
+               <div class="email" ><img src="img/mail.png"> <p>4techne@gmail.com</p></div>
+               <div class="telephone"> <img src="img/telephone.png"> <p>11931010014</p> </div>
+            </div>
+
+           </div>
     </section>
     <hr>
         <footer id="footer">
-            <img class="redes" src="img/email.png" alt="">
-            <img class="redes" src="img/Insta.png" alt="">
-            <img class="redes" src="img/Linkedin.png" alt="">
-            <img class="redes" src="img/Whatsapp(3).png" alt="">
-            <h2 class="foo">CNPJ:68088325000101</h2>
-            <h2 class="foo">Rua Bartira 552 - Perdizes - São Paulo</h2>
-            <h2 class="foo">11932100015</h2>
+           <h2 class="foo">CNPJ:68088325000101</h2>
+           <div class="redes">
+           <img src="img/Linkedin.png" alt="">
+           <img src="img/Whatsapp(3).png" alt="">
+           <img src="img/Insta.png" alt="">
+           </div>
+                 <a href="#topo"><img class="imglogo" src="img/logo_techne.png"></a>
+  
+        </footer>
+            
 </body>
 </html>
