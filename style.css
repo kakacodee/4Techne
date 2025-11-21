@@ -64,9 +64,9 @@ hr {
   
 }
 #topo > a > img {
-  display: block;     /* remove espaço abaixo da imagem */
+  display: block;    
   max-width: 100%; 
-  width: 204px;   /* mantém responsivo */
+  width: 204px;   
   height: 204px;
 }
 .imglogo{
@@ -237,8 +237,7 @@ hr {
      color: #1a1a1a;
     text-align: center;
     font-weight: bold;
-    margin-top: 5%;
-    margin-left: 10vh;
+
 }
 
 .trabalhos{
@@ -260,7 +259,7 @@ hr {
   transition: transform 0.5s ease-in-out;
 }
 .trabalhos-slide img{
-        border-radius: 5%;
+  border-radius: 5%;
   width: 100%;
   flex-shrink: 0;
 }
@@ -508,6 +507,7 @@ img.next{
     justify-content:center;
     align-items: center;
     width: auto;
+    margin:0
     
   }
 
