@@ -159,6 +159,7 @@ hr {
     padding-top:5px
 }
 .card-text{
+   font-family: "Lexend Exa";
     position: relative;
     height: 100%;
     width: 100%;
@@ -167,13 +168,14 @@ hr {
     flex-wrap: wrap;
     text-align: center;
     text-wrap: initial;
-    font-size: 3.5vh;
+    font-size: 3vh;
     top: 5%;
     font-weight: bold;
     overflow: hidden;
     color: white;
 }
 .txtCard{
+  
     margin: 3%;
     margin-top: 28.5%;
 }
