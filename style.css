@@ -239,9 +239,9 @@ hr {
   height: 70vh;
   width: 40%;
   margin: auto;
+  padding-bottom: 20px;
   overflow: hidden;
   display: flex;
-  left: 10vh;
 }
 .trabimg{
   height: 70vh;
@@ -289,6 +289,7 @@ img.next{
     width: 100%;
     margin-top: 5%;
 }
+
 .txtSlide{
     position: relative;
     font-family: "Lexend Exa";
@@ -511,7 +512,7 @@ img.next{
     justify-content: center;
    margin:0 auto;
     width: auto;
-    margin-right: 150px;
+  margin-right: 10px;
     height: auto;
     overflow: hidden;
     
