@@ -31,7 +31,7 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
     gap: 50px;
 }
 
@@ -384,6 +384,93 @@ img.next{
     padding-top: 4px;
     font-weight: lighter;
     margin-left: 0.5%;
+}
+
+.mivisa{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+}
+
+.missao{
+  width: 40vw;
+  background-color: #2e2f4d;
+  color: white;
+    max-height: 175px;
+    border-radius: 5px;
+}
+.missaoTitle{
+  font-family: "Aldrich";
+  padding-left: 10px;
+}
+.visao{
+  background-color: #5a5fa3;
+  color: white;
+  width: 45vw;
+  min-height: 175px;
+   border-radius: 5px;
+
+}
+.visaoTitle{
+  font-family: "Aldrich";
+   padding-left: 10px;
+
+}
+
+
+.txtMissao{
+  font-family: "Aldrich";
+    font-size: 20px;
+    padding: 10px;
+}
+.txtVisao{
+  font-family: "Aldrich";
+    font-size: 20px;
+    padding: 10px;
+}
+.valores{
+  margin-top: 25px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    
+}
+.valoresTitle{
+    margin-bottom: 10px;
+     font-family: "Aldrich";
+}
+.caixaValor{
+   background-color: #6a4fa3;  
+    padding: 40px;
+    border-radius: 5px;
+    width: 35%;
+    max-height: 250px;
+
+    color: white;
+    font-family: "Aldrich";
+}
+
+.caixaValor h1{
+   margin-bottom: 20px;
+}
+.listas{
+    display: flex;
+    justify-content: space-evenly;
+ 
+}
+
+.listas ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.listas li {
+    font-size: 30px;
+    margin-bottom: 15px;
+  
 }
 
 
