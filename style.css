@@ -399,7 +399,7 @@ img.next{
   background-color: #2e2f4d;
   color: white;
     max-height: 175px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 .missaoTitle{
   font-family: "Aldrich";
@@ -410,7 +410,7 @@ img.next{
   color: white;
   width: 45vw;
   min-height: 175px;
-   border-radius: 5px;
+   border-radius: 10px;
 
 }
 .visaoTitle{
@@ -445,7 +445,7 @@ img.next{
 .caixaValor{
    background-color: #6a4fa3;  
     padding: 40px;
-    border-radius: 5px;
+    border-radius: 10px;
     width: 35%;
     max-height: 250px;
 
