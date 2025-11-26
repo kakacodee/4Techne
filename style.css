@@ -124,6 +124,33 @@ hr {
     margin-left: 4.2%;
     margin-top: -3.8%;
 }
+.Equipe{
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+}
+.membros-slide{
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+.membro{
+  flex: 0 0 25%;
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center;
+}
+.fotoMembro{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1vh solid #000000;
+  transition: transform 0.3s ease;
+}
+.fotoMembro:hover {
+  transform: scale(1.05);
+}
 .cards{
     margin-left: 10vh;
     margin-top: 1%;
