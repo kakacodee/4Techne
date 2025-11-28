@@ -113,8 +113,6 @@ hr {
     text-align: center;
     font-size: 400%;
     font-weight: bold;
-    margin-top: 10%;
-      margin-left: 4.2%;
     padding: 20px;
 }
 .subplan{
@@ -124,7 +122,6 @@ hr {
     text-align: center;
     font-size: 300%;
     font-weight: lighter;
-      margin-left: 4.2%;
     margin-top: -3.8%;
 }
 .cards{
@@ -307,7 +304,7 @@ img.next{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:100px;
+    gap:125px;
     padding-bottom:30px;
 }
 .meiosContato {
@@ -347,8 +344,8 @@ img.next{
 
 .mapa{
     border-radius: 10px;
-    width: 45vw;
-    height: 30vw;
+    width: 50vw;
+    height: 35vw;
 }
 .redes{
     display: inline-flex;
@@ -550,7 +547,7 @@ img.next{
   
   .card {
     width: 90vw;
-
+    height: 100%;
     border-radius: 15px;
   }
 
@@ -613,7 +610,6 @@ img.next{
 
 
 
-
   .contatos {
     flex-direction: column;
     gap: 20px;
@@ -672,93 +668,7 @@ img.next{
     height: auto;
   }
   
-  .mivisa {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
-
-.missao {
-    width: 40vw;
-    background-color: #2e2f4d;
-    color: white;
-    max-height: 175px;
-    border-radius: 10px;
-}
-
-.missaoTitle {
-    font-family: "Aldrich";
-    padding-left: 10px;
-}
-
-.visao {
-    background-color: #5a5fa3;
-    color: white;
-    width: 45vw;
-    min-height: 175px;
-    border-radius: 10px;
-}
-
-.visaoTitle {
-    font-family: "Aldrich";
-    padding-left: 10px;
-}
-
-.txtMissao {
-    font-family: "Aldrich";
-    font-size: 20px;
-    padding: 10px;
-}
-
-.txtVisao {
-    font-family: "Aldrich";
-    font-size: 20px;
-    padding: 10px;
-}
-
-.valores {
-    margin-top: 25px;
-    margin-bottom: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.valoresTitle {
-    margin-bottom: 10px;
-    font-family: "Aldrich";
-}
-
-.caixaValor {
-    background-color: #6a4fa3;
-    padding: 40px;
-    border-radius: 10px;
-    width: 35%;
-    max-height: 250px;
-    color: white;
-    font-family: "Aldrich";
-}
-
-.caixaValor h1 {
-    margin-bottom: 20px;
-}
-
-.listas {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.listas ul {
-    list-style: disc;
-    padding-left: 20px;
-}
-
-.listas li {
-    font-size: 30px;
-    margin-bottom: 15px;
-}
-
+ 
 
     .mivisa {
         flex-direction: column;
@@ -799,8 +709,7 @@ img.next{
     }
 
     .listas {
-        flex-direction: column; 
-        justify-content: flex-start;
+  
         gap: 10px; 
     }
 
