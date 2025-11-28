@@ -32,7 +32,8 @@ hr {
     justify-content: center;
     align-items: center;
     padding-bottom: 5%;
-    gap: 50px;
+    width: 100%;
+    gap: 100px;
 }
 
 
@@ -136,7 +137,7 @@ hr {
 .card{
     background-color: #5A5FA3;
     width: 45vh;
-    height: 65vh;
+    height: 55vh;
     position: relative;
     gap: 2%;
     border-top-left-radius: 3vh;
@@ -168,7 +169,7 @@ hr {
     flex-wrap: wrap;
     text-align: center;
     text-wrap: initial;
-    font-size: 3vh;
+    font-size: 2.7vh;
     top: 5%;
     font-weight: bold;
     overflow: hidden;
@@ -205,18 +206,19 @@ hr {
 }
 
 .sobretxt{
+  flex: 1;
     font-family: "Lexend Era";
     color:#1a1a1a;
-    font-size: 190%;
+    font-size: 225%;
     font-weight: lighter;
-    width: 500px;
+    max-width:850px;
 
 
 }
 
 .sobreimg{
-    width: 50vh;
-    height: 60vh;
+    width: 55vh;
+    height: 65vh;
 
 }
 #sobre{
@@ -305,11 +307,11 @@ img.next{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:50px;
+    gap:100px;
     padding-bottom:30px;
 }
 .meiosContato {
-  width: 280px;
+  width: 350px;
   padding: 20px 30px;
   color: black;
 }
@@ -321,8 +323,8 @@ img.next{
 }
 
 .meiosContato img {
-  width: 45px; 
-  height: 45px;
+  width: 70px; 
+  height: 70px;
   margin-right: 15px;
 
 }
@@ -333,7 +335,7 @@ img.next{
   border-radius: 15px;
   padding: 15px;
   font-family: 'poppins', sans-serif;
-  font-size: 20px;
+  font-size: 30px;
   color: black;
 
   word-wrap: break-word;
@@ -344,7 +346,9 @@ img.next{
 }
 
 .mapa{
-    border-radius: 10%;
+    border-radius: 10px;
+    width: 45vw;
+    height: 30vw;
 }
 .redes{
     display: inline-flex;
